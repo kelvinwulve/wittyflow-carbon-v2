@@ -1,0 +1,14 @@
+.app-id-text {
+  margin-right: 10px;
+}
+.app-secret-text {
+  margin-right: 10px;
+}
+.app-id-value {
+  color: #000000;
+  font-weight: 400;
+}
+.app-secret-value {
+  color: #000000;
+  font-weight: 400;
+}

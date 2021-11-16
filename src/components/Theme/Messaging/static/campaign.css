@@ -1,0 +1,42 @@
+.campaign-preview-row{
+    margin-top: 70px;
+}
+.phone-mockup-container {
+    width: 100%;
+    text-align: center;
+}
+.phone-container {
+    /* background-image: url(/static/iphone-mockup.png); */
+    /* position: absolute; */
+    background-size: 100%;
+    background-position: 50%;
+    width: 322px;
+    height: 634px;
+    /* top: 120px; */
+    left: calc(50% - 211px);
+    transform: translateX(10%);
+    margin-bottom: 120px;
+    /* background-color: red; */
+}
+
+.phone-content {
+    position: absolute;
+    top: 41px;
+    left: 24px;
+    width: 273px;
+    height: 476px;
+    overflow: hidden;
+}
+
+.phone-container .msg-content {
+    background-color: #e6e6eb;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    float: left;
+    /* white-space: pre-wrap; */
+    color: #666666 !important;
+    line-height: 1.5em;
+    font-size: 1em;
+}

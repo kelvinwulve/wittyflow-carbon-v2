@@ -1,0 +1,197 @@
+.smsbubbles {
+  max-width: 400px;
+  margin-left: auto;
+}
+
+.smsbubbles__top {
+  /* line-height: 1; */
+}
+
+@media (min-width: 768px) {
+  .smsbubbles.smsbubbles--topmargin {
+    margin-top: 85px;
+  }
+}
+
+.smsbubbles__item {
+  position: relative;
+  display: none;
+  /* max-width: 210px; */
+  margin-bottom: 10px;
+}
+
+.smsbubbles__item.smsbubbles__item--absolute {
+  position: absolute;
+}
+
+.smsbubbles__item.smsbubbles__item--large {
+  max-width: 270px;
+}
+
+.smsbubbles__check {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: rgba(41, 201, 19, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.smsbubbles__check span {
+  display: block;
+  left: 50%;
+  margin-left: -17px;
+  margin-top: -17px;
+  background-color: #29c913;
+  height: 34px;
+  width: 34px;
+  border-radius: 100%;
+}
+
+.smsbubbles__check span:after,
+.smsbubbles__check span:before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  background-color: #fff;
+  width: 3px;
+  border-radius: 10px;
+}
+
+.smsbubbles__check span:before {
+  height: 14px;
+  left: 19px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.smsbubbles__check span:after {
+  height: 9px;
+  left: 12px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.smsbubbles__check span {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+}
+
+@media (min-width: 768px) {
+  .smsbubbles__item {
+    display: inline-block;
+  }
+}
+
+.smsbubbles__item.smsbubbles__item--7 {
+  max-width: none;
+}
+
+.smsbubbles__insides {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+  opacity: 0;
+  background-color: #fff;
+  background-color: #f8f8f8;
+  box-shadow: 0 7px 29px -5px rgba(1, 87, 155, 0.37);
+  border-radius: 19px 19px 19px 0;
+  overflow: hidden;
+  transition: all 0.1s ease;
+}
+
+.smsbubbles__insides.smsbubbles__insides--reversed {
+  border-radius: 19px 19px 0 19px;
+}
+
+.smsbubbles__insides--revealed {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.smsbubbles__item:nth-of-type(2n) {
+  float: right;
+}
+
+.smsbubbles__insides--revealed .smsbubbles__bold,
+.smsbubbles__insides--revealed .smsbubbles__light,
+.smsbubbles__insides.smsbubbles__insides--static .smsbubbles__bold,
+.smsbubbles__insides.smsbubbles__insides--static .smsbubbles__light {
+  font-size: 13px;
+}
+
+.smsbubbles__insides--revealed .smsbubbles__content,
+.smsbubbles__insides.smsbubbles__insides--static .smsbubbles__content {
+  font-size: 14px;
+}
+
+.smsbubbles__bold {
+  font-size: 0;
+  font-family: inherit;
+  color: #2a2a2e;
+  font-weight: bold;
+}
+
+.smsbubbles__light {
+  opacity: 0.5;
+  margin-left: 4px;
+  font-size: 0.8em;
+}
+
+.smsbubbles__content,
+.smsbubbles__light {
+  font-family: inherit;
+  font-size: 0;
+  color: #2a2a2e;
+}
+
+.smsbubbles__content {
+  line-height: 21px;
+}
+
+.smsbubbles__content--nowrap {
+  white-space: nowrap;
+}
+
+.smsbubbles__innercontent {
+  display: inline-block;
+  padding-right: 12px;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+.thesms {
+  /* display: none; */
+}
+
+.bubble-margins {
+  margin-bottom: 80px;
+}
+
+#bubble1 {
+  margin-left: 104px;
+  margin-bottom: 0 !important;
+}
+
+#bubble2 {
+  margin-left: 204px;
+}
+
+#bubble3 {
+  /* margin-left: 304px; */
+}
+
+#bubble4 {
+  /* margin-bottom: 35px; */
+  margin-left: 202px;
+}
+
+#bubble5 {
+  margin-left: 80px;
+}

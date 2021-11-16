@@ -1,0 +1,111 @@
+/* this expands the navbar dropdown menu width */
+@media (min-width: 992px) {
+  .header_area .navbar .nav .nav-item.submenu ul {
+    width: 300px;
+  }
+
+  li#auth_btn_mobile {
+    display: none;
+  }
+
+  .drop-detail {
+    padding: 5px 14px 8px 14px;
+  }
+  .drop-detail span {
+    font-size: 15px;
+    line-height: 16px;
+    color: #7f7f82;
+    margin-top: 5px;
+  }
+
+  .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+    /* line-height: 24px; */
+    color: #2a2a2e;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 14px;
+  }
+
+  .right-button .auth_btn {
+    font-size: 14px;
+    color: #222222 !important;
+    background: #fff;
+    padding: 12px 38px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+}
+
+/* navbar styling on mobile */
+
+@media (max-width: 991px) {
+  .header_area .navbar .nav .nav-item .nav-link {
+    line-height: 40px;
+    margin-right: 0px;
+    margin-left: 20px;
+    display: block;
+    border-bottom: 1px solid #ededed33;
+    border-radius: 0px;
+  }
+
+  .right-button {
+    /* display: inline-block; */
+  }
+
+  .right-button .auth_btn {
+    font-size: 14px;
+    color: #222222 !important;
+    background: #fff;
+    padding: 12px 38px;
+    border-radius: 3px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand {
+    padding-left: 14px;
+  }
+
+  .navbar-toggler span {
+    background-color: #ffffff;
+  }
+  .drop-detail {
+    padding: 0px 14px 8px 14px;
+  }
+  .drop-detail span {
+    font-size: 15px;
+    line-height: 16px;
+    color: #7f7f82;
+    margin-top: 5px;
+  }
+
+  .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+    /* line-height: 24px; */
+    color: #2a2a2e;
+    font-size: 16px;
+    font-weight: 400;
+    /* padding: 0px 14px; */
+  }
+}
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
+  background: #0088fc;
+  color: #fff;
+  text-shadow: none !important;
+}
+
+.header_area .navbar .nav .nav-item .nav-link {
+  font-family: Lota, "Proxima Nova", "Helvetica Neue", Helvetica, Arial,
+    sans-serif !important;
+  /* text-shadow: 1px 1px 1px #8d8d8d; */
+}
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+  font-family: Lota, "Proxima Nova", "Helvetica Neue", Helvetica, Arial,
+    sans-serif !important;
+}
+
+.header_area .navbar .nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}

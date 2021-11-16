@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Lota";
+  src: url("../font/LotaGrotesque-Thin.otf") format("otf"),
+    url("../font/LotaGrotesque-Thin.woff2") format("woff2"),
+    url("../font/LotaGrotesque-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Lota";
+  src: url("../font/LotaGrotesque-Light.otf") format("otf"),
+    url("../font/LotaGrotesque-Light.woff2") format("woff2"),
+    url("../font/LotaGrotesque-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Lota";
+  src: url("../font/LotaGrotesque-Regular.otf") format("otf"),
+    url("../font/LotaGrotesque-Regular.woff2") format("woff2"),
+    url("../font/LotaGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Lota";
+  src: url("../font/LotaGrotesque-SemiBold.otf") format("otf"),
+    url("../font/LotaGrotesque-SemiBold.woff2") format("woff2"),
+    url("../font/LotaGrotesque-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Lota";
+  src: url("../font/LotaGrotesque-Bold.otf") format("otf"),
+    url("../font/LotaGrotesque-Bold.woff2") format("woff2"),
+    url("../font/LotaGrotesque-Bold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Lota";
+  src: url("../font/LotaGrotesque-Black.otf") format("otf"),
+    url("../font/LotaGrotesque-Black.woff2") format("woff2"),
+    url("../font/LotaGrotesque-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4a5669;
+  font-family: Lota, "Proxima Nova", "Helvetica Neue", Helvetica, Arial,
+    sans-serif !important;
+  font-size: 1em !important;
+
+  /* background: #f2f3f8; */
+
+  /* display: none; */
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,p,span,li,a{
+  font-family: Lota, "Proxima Nova", "Helvetica Neue", Helvetica, Arial,
+  sans-serif !important;
+}
+
+.alert.alert-light .alert-text {
+  font-size: 1.1em !important;
+  /* font-weight: bold; */
+}
+
+.btn-blue {
+  height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background-color: rgb(45, 155, 243);
+  border-radius: 4px;
+  outline: none;
+  transition: background 0.2s ease 0s;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  margin: 0px 8px 8px auto;
+}
+
+.text-black {
+  color: #2a2a2e !important;
+}
+
+.ladda-button-primary {
+  width: 100% !important;
+  font-family: Lota, "Proxima Nova", "Helvetica Neue", Helvetica, Arial;
+  padding: 1rem 3rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #248afd !important;
+  border-color: #248afd !important;
+  font-size: 0.875rem !important;
+  margin: 2px 0px;
+  font-weight: 700;
+  border-radius: 2px;
+  outline: 0 !important;
+  text-transform: none;
+  font-size: 1.1em !important;
+}
